@@ -1,0 +1,148 @@
+.grid-view-dataview{
+
+    & .p-dataview-content .p-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5%;
+        justify-content: space-between;
+    }
+
+    & .p-dataview-content .p-grid > div {
+        flex: 1 0 22vw;
+
+    }
+
+    & .p-dataview-content .p-grid::after {
+        content: '';
+        flex-grow: 3.3;
+    }
+
+    & .item-grid-item-content {
+        padding-bottom: 1rem;
+
+    }
+
+    & .item-grid-item-bottom {
+        display: flex;
+        justify-content: center;
+
+        & button {
+            width: 90%;
+        }
+    }
+
+}
+
+.gallery-display-items .card {
+    padding: 0;
+    border: 1px solid #dee2e6;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+
+
+.gallery-display-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-display-items .item-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.gallery-display-items .item-description {
+    margin: 0 0 1rem 0;
+}
+
+.gallery-display-items .item-category-icon {
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.gallery-display-items .item-category {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.gallery-display-items .item-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.gallery-display-items .item-list-item img {
+    width: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-right: 2rem;
+}
+
+.gallery-display-items .item-list-item .item-list-detail {
+    flex: 1 1 0;
+}
+
+
+
+.gallery-display-items .item-list-item .item-list-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-display-items .item-list-item .p-button {
+    margin-bottom: .5rem;
+}
+
+.gallery-display-items .item-grid-item {
+    margin: .5em;
+    border: 1px solid var(--surface-border);
+    padding: 2rem;
+}
+
+.gallery-display-items .item-grid-item .item-grid-item-top,
+    .gallery-display-items .item-grid-item .item-grid-item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-display-items .item-grid-item img {
+    width: 75%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin: 2rem 0;
+}
+
+.gallery-display-items .item-grid-item .item-grid-item-content {
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .gallery-display-items .item-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-display-items .item-list-item img {
+        width: 75%;
+        margin: 2rem 0;
+    }
+
+    .gallery-display-items .item-list-item .item-list-detail {
+        text-align: center;
+    }
+
+    .gallery-display-items .item-list-item .item-list-action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-display-items .item-list-item .item-list-action {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+

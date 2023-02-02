@@ -1,0 +1,10 @@
+.address-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-form-field-container {
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+}

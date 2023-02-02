@@ -1,0 +1,21 @@
+.contact-form-personal-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-field-container {
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+}
+
+.steps .p-steps {
+    font-size: clamp(15px, 75%, 2rem);
+}
+
+@media screen and (min-width: 1095px) {
+    .steps ul {
+        display: flex;
+        flex-direction: row;
+    }
+  }

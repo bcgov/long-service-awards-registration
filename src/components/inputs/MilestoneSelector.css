@@ -1,0 +1,30 @@
+.milestone-form-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.milestone-form-field-container {
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+}
+
+.yearsofservice-block {
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.milestone-form-yearsofservice-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-button-toggle {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    gap: .5rem;
+}

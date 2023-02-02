@@ -1,0 +1,52 @@
+.navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  width: 100%;
+  z-index: 1000 !important;
+
+  & ul {
+    list-style-type: none;
+    margin-top: 0px !important;
+    margin: 0 0 1rem 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    background-color: #333;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  
+  & li {
+    float: left;
+    padding: .5rem;
+  }
+
+  & .service-awards-logo a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .75rem 1.25rem;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+  }
+  
+  & .navigation-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .75rem 1.25rem;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 769px) {
+    & .navigation-item {
+      display: none;
+    }
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  & .navigation-item a:hover {
+    background-color: #111;
+  }
+}
+

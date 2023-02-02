@@ -1,0 +1,54 @@
+.page-header-card {
+    text-align: left !important;
+    background: #E9ECEF !important;
+
+    &.page-header-single-line {
+        text-align: center !important;
+
+    }
+
+}
+
+.p-card-title {
+font-style: normal;
+font-weight: normal !important;
+font-size: clamp(2rem, 3.5vw, 3.5rem)!important;
+line-height: 4rem !important;
+text-transform: uppercase;
+word-wrap:anywhere;
+
+}
+
+.p-card-subtitle{
+text-transform: capitalize;
+font-size: clamp(1rem, 1.5vw, 1.5rem) !important;
+}
+
+.page-header-single-line {
+    text-align: center;
+    
+}
+
+.page-header-gradient-1 {
+    color: white !important;
+    background: linear-gradient(0.25turn, #234075, #E3A82B) !important;
+    & .p-card-subtitle {
+        color: white !important;
+    }
+}
+
+.page-header-gradient-2 {
+    color: white !important;
+    background: linear-gradient(0.25turn, #E3A82B, #5F2167) !important;
+    & .p-card-subtitle {
+        color: white !important;
+    }
+}
+
+.page-header-gradient-3 {
+    color: white !important;
+    background: linear-gradient(0.25turn, #5F2167, #234075) !important;
+    & .p-card-subtitle {
+        color: white !important;
+    }
+}

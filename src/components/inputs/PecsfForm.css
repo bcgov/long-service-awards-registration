@@ -1,0 +1,22 @@
+.pecsf-award-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.pecsf-award-options > div:first-child {
+        background: #4698CB5E;
+        padding: 10px;
+}
+
+.award-option-block label{
+    font-size: large;
+    font-weight: bold;
+}
+
+.award-option-block-radio {
+    & label {
+        font-size: large;
+    font-weight: bold;
+    }
+}

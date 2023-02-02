@@ -1,0 +1,15 @@
+.lsa-attendance-form-field-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.lsa-attendance-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lsa-attendance-form-field-container div {
+    display: flex;
+    gap: .5rem;
+}

@@ -1,0 +1,95 @@
+#root {
+  text-align: center;
+}
+
+.App .main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.App .main-content > div {
+  width: clamp(285px, 90vw, 80rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.App .main-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.App .submission-buttons {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+
+  & button {
+    flex: 1;
+  }
+
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.p-toast {
+  position: fixed;
+  top:50vh !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999 !important;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.p-toast-top-right {
+  --toast-indent: 20px;
+  top: 5vh !important;
+}
+
+.loading-modal {
+  position: fixed;
+  z-index: 9998;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.p-progress-spinner {
+  top: 70vh !important;
+  z-index: 9998 !important;
+  margin: auto;
+}
+
+.self-registration .p-panel-title {
+    display: flex;
+    gap: .5rem;
+} 
+
+.information-only-panel {
+  & p {
+    margin: .5rem 0;
+  }
+  & li {
+  list-style: inside !important;
+}
+}
+
+.confirmation-redirection-panel{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}

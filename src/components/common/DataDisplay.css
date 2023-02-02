@@ -1,0 +1,14 @@
+.contact-form-personal-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-field-container {
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+}
+
+.p-datatable-tbody td{
+    white-space:pre;
+}
